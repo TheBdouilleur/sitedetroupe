@@ -5,21 +5,29 @@
  /* Header */
  .header {
    text-align: center;
+   
+   /*display: flex;
+   justify-content: center;*/
    margin: 0 auto;
    width: 600px;
  }
 
  .headerText{
-   color: blueviolet;
-   float: inline-start;
+   color: rgb(43, 92, 226);
+   
+   float: left;
  }
 
  .header .topimg {
     margin: auto;
     height: 85px;
-    float: inline-start;
+    
+    float: left;
  }
 
+#clear {
+    clear: both;
+}
 
  /* Navbar */
  .topnav {
@@ -28,7 +36,7 @@
     position: sticky;
     top: 0;
     margin: 0 auto;
-    width: 600px;
+
     text-align: center;
   }
   
