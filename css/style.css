@@ -42,11 +42,10 @@
   
   /* Style the links inside the navigation bar */
   .topnav li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
   }
   .topnav a {
-    display: inline-block;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
