@@ -32,7 +32,7 @@
  /* Navbar */
  .topnav {
     background-color: #ffffff;
-    overflow: hidden;
+    overflow: visible;
     position: sticky;
     top: 0;
     text-align: center;
