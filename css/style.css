@@ -22,7 +22,7 @@
  #short-text {
     display: none;
  }
- 
+
  .header .topimg {
     margin: 5px 0px 0px 0px;
     height: 85px;
@@ -115,8 +115,15 @@
     display: block;
   }
   
-  /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham
-
+  /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham */
+  @media screen and (max-width: 630px) {
+   #long-text {
+      display: none;
+   }
+   #short-text {
+      display: contents;
+   }
+  }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
