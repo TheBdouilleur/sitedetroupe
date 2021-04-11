@@ -64,7 +64,6 @@
   /* Dropdown container - needed to position the dropdown content */
   .dropdown {
     display: inline-block;
-    overflow: hidden;
   }
   
   /* Style the dropdown button to fit inside the topnav */
