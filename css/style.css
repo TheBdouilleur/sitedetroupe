@@ -5,18 +5,20 @@
  /* Header */
   .header {
    text-align: center;
-   
    display: flex;
    align-items:baseline;
    justify-content: center;
    margin: auto auto;
-   width: 600px;
  }
 
- .headerText{
+ .headerText {
    color: rgb(43, 92, 226);
    margin: 0 5px auto 5px;
    float: left;
+ }
+
+ #short-text {
+    display: none;
  }
 
  .header .topimg {
@@ -111,6 +113,15 @@
     display: block;
   }
   
+  /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham */
+  @media screen and (max-width: 630px) {
+   #long-text {
+      display: none;
+   }
+   #short-text {
+      display: block;
+   }
+  }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
