@@ -2,6 +2,10 @@
  body {
    font-family: Fjalla One, Oswald;
  }
+
+ p {
+   font-family: Open Sans;
+ }
  /* Header */
   .header {
    text-align: center;
