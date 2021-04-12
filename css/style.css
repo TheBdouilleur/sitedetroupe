@@ -117,6 +117,10 @@
     display: block;
   }
   
+  /* Content*/
+  .content {
+    margin-left: 20px
+  }
   /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham */
   @media screen and (max-width: 630px) {
    #long-text {
