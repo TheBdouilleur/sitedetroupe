@@ -5,12 +5,10 @@
  /* Header */
   .header {
    text-align: center;
-   
    display: flex;
    align-items:baseline;
    justify-content: center;
    margin: auto auto;
-   width: 600px;
  }
 
  .headerText {
@@ -121,7 +119,7 @@
       display: none;
    }
    #short-text {
-      display: contents;
+      display: block;
    }
   }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
