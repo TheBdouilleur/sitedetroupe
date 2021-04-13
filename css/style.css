@@ -26,6 +26,13 @@ border: 1px solid #999999;
 padding: 5px 5px;
 }
 
+/* Gray text */
+.gray {
+  font-style: italic;
+  text-align: center;
+  color: gray;
+}
+
 /* Header */
 .header {
     text-align: center;
