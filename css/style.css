@@ -1,10 +1,42 @@
 /* Feuille de style globale*/
 body {
-    font-family: Fjalla One, Oswald;
+  font-family: Fjalla One, Oswald;
+}
+
+h1:not(.title) {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 0 0 24px;
+  text-align: center;
 }
 
 p {
-    font-family: Open Sans;
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+a {
+  color:#1c1c1c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 table {
@@ -35,7 +67,7 @@ padding: 5px 5px;
 
 /* Header */
 .header {
-    text-align: center;
+  text-align: center;
     display: flex;
     align-items: baseline;
     justify-content: center;
