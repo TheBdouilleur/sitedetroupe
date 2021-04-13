@@ -80,7 +80,7 @@ padding: 5px 5px;
     float: left;
 }
 
-#short-text {
+#short-title {
     display: none;
 }
 
@@ -183,10 +183,10 @@ padding: 5px 5px;
 }
 /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham */
 @media screen and (max-width: 630px) {
-    #long-text {
+    #long-title {
         display: none;
     }
-    #short-text {
+    #short-title {
         display: block;
     }
 }
