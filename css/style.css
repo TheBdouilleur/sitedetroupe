@@ -1,10 +1,41 @@
 /* Feuille de style globale*/
 body {
-    font-family: Fjalla One, Oswald;
+  font-family: Fjalla One, Oswald;
+}
+
+h1:not(.title) {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: center;
 }
 
 p {
-    font-family: Open Sans;
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+a {
+  color:#1c1c1c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 table {
@@ -26,9 +57,16 @@ border: 1px solid #999999;
 padding: 5px 5px;
 }
 
+/* Gray text */
+.gray {
+  font-style: italic;
+  text-align: center;
+  color: gray;
+}
+
 /* Header */
 .header {
-    text-align: center;
+  text-align: center;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -39,9 +77,10 @@ padding: 5px 5px;
     color: rgb(43, 92, 226);
     margin: 0 5px auto;
     float: left;
+    font-size: larger;
 }
 
-#short-text {
+#short-title {
     display: none;
 }
 
@@ -144,10 +183,10 @@ padding: 5px 5px;
 }
 /* Quand l'écran fait moins de 370px de large, changer le texte en 3e Cham */
 @media screen and (max-width: 630px) {
-    #long-text {
+    #long-title {
         display: none;
     }
-    #short-text {
+    #short-title {
         display: block;
     }
 }
