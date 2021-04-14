@@ -172,6 +172,40 @@ padding: 5px 5px;
     color: black;
 }
 
+/* Morse.html-specific CSS*/
+#table-container {
+  text-align: center;
+  padding: 15px;  
+}
+#morse-letters {
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+#morse-numbers{
+  display: inline-block;
+  max-width: 150px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+}
+
+
+@media screen and (max-width: 600px) 
+{
+  #morse-letters, #morse-numbers
+    {
+       max-width: 100%;
+    }
+}
+
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
