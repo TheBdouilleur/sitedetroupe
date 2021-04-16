@@ -38,6 +38,10 @@ a:hover {
   cursor: pointer;
 }
 
+ul {
+  font:"Open sans", sans-serif;
+}
+
 table {
 font-size: 12px;
 margin-left:auto;
